@@ -6,15 +6,12 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="chart">
-      <UniqueIdentifier>{8f55d7c6-18bf-41a6-95fb-02d70db095d3}</UniqueIdentifier>
+      <UniqueIdentifier>{9c680d65-b81a-47a7-95de-4d7e341134e5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ChartTest.h" />
-    <ClInclude Include="ChartTestDlg.h" />
+    <ClInclude Include="Example.h" />
+    <ClInclude Include="ExampleDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -26,25 +23,25 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChartTest.cpp" />
-    <ClCompile Include="ChartTestDlg.cpp" />
+    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="ExampleDlg.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="..\Comm\ChartWindow.cpp">
       <Filter>chart</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ChartTest.rc">
+    <ResourceCompile Include="Example.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\ChartTest.rc2">
+    <None Include="res\Example.rc2">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\ChartTest.ico">
+    <Image Include="res\Example.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

@@ -1,17 +1,14 @@
-
 #pragma once
 
+#include "../Comm/ChartWindow.h"
 
 class CChartWindow;
 
-// CChartTestDlg dialog
 class CChartTestDlg : public CDialogEx
 {
-// Construction
 public:
 	CChartTestDlg(CWnd* pParent = NULL);	// standard constructor
 
-// Dialog Data
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_CHARTTEST_DIALOG };
 #endif
@@ -20,7 +17,6 @@ public:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV support
 
 
-// Implementation
 protected:
 	HICON m_hIcon;
 	CChartWindow *m_chartWnd;

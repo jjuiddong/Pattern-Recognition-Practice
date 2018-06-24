@@ -1,7 +1,3 @@
-
-// ChartTest.h : main header file for the PROJECT_NAME application
-//
-
 #pragma once
 
 #ifndef __AFXWIN_H__
@@ -9,11 +5,6 @@
 #endif
 
 #include "resource.h"		// main symbols
-
-
-// CChartTestApp:
-// See ChartTest.cpp for the implementation of this class
-//
 
 class CChartTestApp : public CWinApp
 {

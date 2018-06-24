@@ -15,6 +15,10 @@ struct Vector2 {
 	float x, y;
 };
 
+struct Mat2x2 {
+	float m11, m12, m21, m22;
+};
+
 
 // CChartWindow view
 class CChartWindow : public CScrollView
