@@ -88,3 +88,8 @@ plot(t,y1,t,y2); grid on;
 xlabel('t');
 title('sin(t) and cos(t)');
 legend('sin(t)', 'cos(t)');
+
+a = magic(4)
+a(2,:)
+
+
